@@ -1,0 +1,30 @@
+# Useless Trivia
+#
+# Get Personal information from the user and then
+# prints true but useless information about him or her
+
+name = input("Hi.what's your name?")
+
+age = int(input("How old are you?"))
+
+weight = int(input("Okay, last question. How many pound do you weigh?"))
+
+print("\nIf poet ee cummings were to email you, he'd address you as",
+      name.lower())
+print("\nIf ee were mad, he'd call you", name.upper())
+
+called = name * 5
+print("\nIf a child were trying to get your attention.",)
+print("your name would become:")
+print(called)
+
+seconds = age * 365 * 24 * 60 * 60
+print("\nYou are over", seconds, "seconds old")
+
+moon_weight = weight/6
+print("\nDId you know that on the moonyou would weigh only", moon_weight,"pounds?")
+
+sun_weight = weight * 27.1
+print("on the sun, you'd weigh", sun_weight, "(but, ah...not for long).")
+
+input("\n\nPress the enter key to exit.")
