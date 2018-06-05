@@ -6,6 +6,18 @@ name = "pypi"
 [packages]
 flask = "*"
 pytest = "*"
+flask-wtf = "*"
+wtforms = "*"
+flask-login = "*"
+flask-openid = "*"
+flask-mail = "*"
+flask-sqlalchemy = "*"
+flask-whooshalchemy = "*"
+flask-babel = "*"
+guess-language = "*"
+flipflop = "*"
+coverage = "*"
+sqlalchemy-migrate = "*"
 
 [dev-packages]
 
