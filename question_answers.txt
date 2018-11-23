@@ -1,0 +1,48 @@
+Technical Questions and Answers
+
+Answer 1 :
+  Example 1: this example will print
+              "Hello Robert"
+              --> 10 times then
+              "Goodbye Dave"
+              --> 10 times
+  Example 2: this example will print
+              "Hello Robert"
+              --> 1 time then
+              "Goodbye Dave"
+              --> 10 times
+
+              --> will repeat the above printing sequence 10 times
+
+Answer 2: All three html snippet will print same output
+
+                          Hello Robert
+
+                          Goodbye Dave
+          Reason: HTML understand when you forget the closing tag. And in snippet-2 and snippet-3
+          HTML assumes that we forget closing bracket for for first <p> thus will end paragraph there.
+          when it encounter second <p> tag it creates another paragraph. Which essentially becomes like
+          first snippet with proper open and close tag.
+
+Answer 3: All three options looks wrong. 
+
+Answer 4: c
+
+Answer 5: b
+
+Answer 6: c
+
+Answer 7: d
+
+Answer 8: a
+
+Answer 9: True. NOT NULL constraint make sure that no new row (or update of an existing row)can be
+          created without inserting values into NOT NULL fields.
+
+Answer 10: a
+
+Answer 11: host -t <a, mx, ns, txt etc.> example.com
+            Above host command with flag t and option a(ip), mx(for mail server), ns(name servers)
+            etc. can be used to get information about DNS of a domain.
+
+Answer 12: And DNS TXT record should always end with ~all not -all.
