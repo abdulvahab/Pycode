@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pycodeco/public_html/
+    - export DEPLOYPATH=/home/pycodeco/public_html/pycode
     - cp -r * $DEPLOYPATH
     #- export DEPLOYPATH1=/home/dearmath/public_html/img/
     #- export DEPLOYPATH2=/home/dearmath/public_html/cgi-bin/
